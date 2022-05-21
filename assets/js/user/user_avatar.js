@@ -15,6 +15,7 @@ $('#btnChooseImage').click(function(){
     $('#file').click()
 })
 // 设置图片
+const layer = layui.layer;
 $('#file').change((e) => {
     let fileList = e.target.files
     if(fileList.length === 0) return layer.msg ('选择文件后上传')
