@@ -66,3 +66,6 @@ $("#form_login").submit((e) => {
 });
 
 })
+function change(){
+    $('#art_list').addClass('layui_this').next().removeClass('layui_this')
+}
